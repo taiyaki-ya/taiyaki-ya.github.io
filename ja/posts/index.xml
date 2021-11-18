@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on EBIZO HOUSE</title>
+    <link>https://ebizoooo.github.io/ja/posts/</link>
+    <description>Recent content in Posts on EBIZO HOUSE</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 18 Nov 2021 21:48:25 +0900</lastBuildDate><atom:link href="https://ebizoooo.github.io/ja/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My First Article</title>
+      <link>https://ebizoooo.github.io/ja/posts/2021/11/my-first-article/</link>
+      <pubDate>Thu, 18 Nov 2021 21:48:25 +0900</pubDate>
+      
+      <guid>https://ebizoooo.github.io/ja/posts/2021/11/my-first-article/</guid>
+      <description>(ja)My first post waaa
+   Name Age     Bob 27   Alice 23    </description>
+    </item>
+    
+  </channel>
+</rss>
