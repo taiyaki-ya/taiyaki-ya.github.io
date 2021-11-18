@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My New Hugo Site</title>
+    <title>EBIZO HOUSE</title>
     <link>https://ebizoooo.github.io/</link>
-    <description>Recent content on My New Hugo Site</description>
+    <description>Recent content on EBIZO HOUSE</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 08 Jun 2010 08:06:25 +0600</lastBuildDate><atom:link href="https://ebizoooo.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 18 Nov 2021 21:48:25 +0900</lastBuildDate><atom:link href="https://ebizoooo.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Resultados de Búsqueda</title>
       <link>https://ebizoooo.github.io/search/</link>
@@ -330,6 +330,15 @@ No content shown here is rendered, all content is based in the template layouts/
 Setting a very low sitemap priority will tell search engines this is not important content.
 This implementation uses Fusejs, jquery and mark.js
 Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description>
+    </item>
+    
+    <item>
+      <title>My First Article</title>
+      <link>https://ebizoooo.github.io/posts/2021/11/my-first-article/</link>
+      <pubDate>Thu, 18 Nov 2021 21:48:25 +0900</pubDate>
+      
+      <guid>https://ebizoooo.github.io/posts/2021/11/my-first-article/</guid>
+      <description>My first post waaa</description>
     </item>
     
     <item>
