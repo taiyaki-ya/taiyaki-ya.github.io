@@ -2,8 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://ebizoooo.github.io/ja/posts/2021/11/2nd-post/</loc>
+    <lastmod>2021-11-19T17:50:25+09:00</lastmod>
+  </url><url>
     <loc>https://ebizoooo.github.io/ja/</loc>
-    <lastmod>2021-11-18T22:46:17+09:00</lastmod>
+    <lastmod>2021-11-19T17:50:25+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -16,7 +19,7 @@
                 />
   </url><url>
     <loc>https://ebizoooo.github.io/ja/posts/</loc>
-    <lastmod>2021-11-18T22:46:17+09:00</lastmod>
+    <lastmod>2021-11-19T17:50:25+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"

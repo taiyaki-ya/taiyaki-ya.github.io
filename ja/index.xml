@@ -6,7 +6,37 @@
     <description>Recent content on EBIZO HOUSE</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 18 Nov 2021 22:46:17 +0900</lastBuildDate><atom:link href="https://ebizoooo.github.io/ja/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 19 Nov 2021 17:50:25 +0900</lastBuildDate><atom:link href="https://ebizoooo.github.io/ja/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2nd Post</title>
+      <link>https://ebizoooo.github.io/ja/posts/2021/11/2nd-post/</link>
+      <pubDate>Fri, 19 Nov 2021 17:50:25 +0900</pubDate>
+      
+      <guid>https://ebizoooo.github.io/ja/posts/2021/11/2nd-post/</guid>
+      <description>(ja) markdown記法？ 「WEBページを書く」というとhtml?と思いつくのですが、
+この度あたらくmarkdown記法を学びました。
+とても覚えやすくて、書きやすいですね。
+見出しは#(半角スペース)文字列です。
+例示するとこんな感じに記述しています。
+記述）
+# 見出し
+## の大きさ
+### もこの通り
+結果）
+見出し の大きさ もこの通り 改行は半角スペースを２つ並べる。
+斜め強調はアスタリスクを左右に
+なのですが、どうやら日本語はうまく適用されない…？
+Que sera sera
+個人的に一番感銘を受けたのはテーブルの記述かもしれないです。
+記述）
+| A | B | C |
+|---|---|---|
+| a | b | c |
+| d | e | f |
+結果）
+   A B C     a b c   d e f    見たまんま、書いたまんまなんです。</description>
+    </item>
+    
     <item>
       <title>初Git</title>
       <link>https://ebizoooo.github.io/ja/posts/2021/11/first-post/</link>
