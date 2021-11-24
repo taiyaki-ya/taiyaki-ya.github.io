@@ -6,7 +6,23 @@
     <description>Recent content on EBIZO HOUSE</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 23 Nov 2021 22:58:03 +0900</lastBuildDate><atom:link href="https://ebizoooo.github.io/ja/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 24 Nov 2021 20:40:33 +0900</lastBuildDate><atom:link href="https://ebizoooo.github.io/ja/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>自動化したい話</title>
+      <link>https://ebizoooo.github.io/ja/posts/2021/11/4th-post/</link>
+      <pubDate>Wed, 24 Nov 2021 20:40:33 +0900</pubDate>
+      
+      <guid>https://ebizoooo.github.io/ja/posts/2021/11/4th-post/</guid>
+      <description>バッチファイルでなんとかならんかな なんのことやらの話ですが、現在このpostを書くにあたり、手動でVScodeを立ち上げ、
+Gitbashを立ち上げ、cmdを立ち上げとちまちまとやっています。
+これをbatファイルでこう、なんとかならないかな？と、私の中の怠惰が考え始めたわけです。
+少し調べてやってみます。
+成果は後日postのネタにすることにします。
+少し話は変わりますが、自分は元来めんどくさがりな部分があり、楽になりたいな～という心持ちで仕事でも電子化自動化を手の届く範囲で行っていたりします。
+業務改善というととても仰々しいのですが、根本はそんなものかなぁと。
+自動化できるものはして、もっと時間を有意義に過ごしたいものです。仕事以外においても、真にそう思います。</description>
+    </item>
+    
     <item>
       <title>3rd_posts</title>
       <link>https://ebizoooo.github.io/ja/posts/2021/11/3rd_posts/</link>
