@@ -6,7 +6,21 @@
     <description>Recent content in Posts on EBIZO HOUSE</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 24 Nov 2021 20:40:33 +0900</lastBuildDate><atom:link href="https://ebizoooo.github.io/ja/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 25 Nov 2021 21:23:06 +0900</lastBuildDate><atom:link href="https://ebizoooo.github.io/ja/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>セキュリティ演習</title>
+      <link>https://ebizoooo.github.io/ja/posts/2021/11/5th-post/</link>
+      <pubDate>Thu, 25 Nov 2021 21:23:06 +0900</pubDate>
+      
+      <guid>https://ebizoooo.github.io/ja/posts/2021/11/5th-post/</guid>
+      <description>インシデントハンドリングを体験してきました。 CYDER演習を受講して、インシデントハンドリングを体験してきました。
+具体的なシナリオに沿って、デジタルフォレンジック調査を実施し、CSIRTの業務の片鱗を実感しました…。
+将来的にセキュリティ分野に関連する業務に付きたいと希望していて、
+ポジション的にはPoCにあたるのですかね？
+リテラシーレベルに差がある状態でいかにうまく伝えていくか、とても大変ですが、セキュリティの確保の観点からは
+無視できないポイントですね。</description>
+    </item>
+    
     <item>
       <title>自動化したい話</title>
       <link>https://ebizoooo.github.io/ja/posts/2021/11/4th-post/</link>
