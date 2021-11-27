@@ -6,9 +6,29 @@
     <description>Recent content in Posts on EBIZO HOUSE</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 25 Nov 2021 21:23:06 +0900</lastBuildDate><atom:link href="https://ebizoooo.github.io/ja/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 27 Nov 2021 20:30:26 +0900</lastBuildDate><atom:link href="https://ebizoooo.github.io/ja/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>セキュリティ演習</title>
+      <title>ライフラインの話</title>
+      <link>https://ebizoooo.github.io/ja/posts/2021/11/6th-post/</link>
+      <pubDate>Sat, 27 Nov 2021 20:30:26 +0900</pubDate>
+      
+      <guid>https://ebizoooo.github.io/ja/posts/2021/11/6th-post/</guid>
+      <description>私は直接影響を受けていませんが… このような大規模な障害が発生するたび、
+もうインターネットって立派なライフラインのひとつだなぁと
+しみじみ感じます。
+そして復旧にご尽力されたであろう方々、本当にお疲れさまでした。
+私は先の東北大震災の余震時、ライフライン途絶を経験しました。
+ここで言うライフラインとは「電気水道ガス」なのですが、
+あの時、生活音が全くなくて静まり返ったような街と
+ラジオから流れていた（なぜかニュースではなく）昭和歌謡曲と石油ストーブの臭い、
+揺らめくロウソクの火を一生忘れることはないと思います。
+私は現在東北に在住していますが、最近少し地震が多い気がします。
+備えはしっかりとしておかなければなりませんね。
+(家財で一番高価なのはPCだと思うのですが、有事の際担いでいける重さではないのが悩みです)</description>
+    </item>
+    
+    <item>
+      <title>セキュリティ演習受講の話</title>
       <link>https://ebizoooo.github.io/ja/posts/2021/11/5th-post/</link>
       <pubDate>Thu, 25 Nov 2021 21:23:06 +0900</pubDate>
       
