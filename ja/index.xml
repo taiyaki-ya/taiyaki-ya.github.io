@@ -6,7 +6,30 @@
     <description>Recent content on EBIZO HOUSE</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 28 Nov 2021 22:22:06 +0900</lastBuildDate><atom:link href="https://ebizoooo.github.io/ja/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 05 Dec 2021 12:53:19 +0900</lastBuildDate><atom:link href="https://ebizoooo.github.io/ja/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>全角半角の話</title>
+      <link>https://ebizoooo.github.io/ja/posts/2021/12/5th-post/</link>
+      <pubDate>Sun, 05 Dec 2021 12:53:19 +0900</pubDate>
+      
+      <guid>https://ebizoooo.github.io/ja/posts/2021/12/5th-post/</guid>
+      <description>パスワードの話です サポート業務中に一般ユーザーから電話で問い合わせがあったときの話です。
+経緯としては、新規のユーザーへ仮パスワードをこちらからふりだししていて、
+それで一旦サインインしてもらってから任意の本パスワードへ変更してもらうといった事をお願いしていました。（色々差っ引いてますが）
+実際の電話でのやり取りは以下の通りです。
+「仮パスワードの入力なんですが…」
+「はい、いかがされました？」
+「全角か半角かかいてないんです」
+「ああ勿論、半角です」
+「勿論なんですか？」
+…やってしまったなぁと、とても反省しました。
+このあと謝罪して、問い合わせの解決？はしたのですが、かなりの衝撃を受けました。
+（余談ですが本件の後、半角である旨を通知文等に添えるようになりました。）
+そういえばなぜ半角英数字（+一部の記号）なのか、少し調べようとしてみたら既に2016年時点で調べておられる方がいらっしゃいました。
+なぜパスワードは半角英数字のみしか設定できないのか調べてみた。
+うまいこと説明できるようになりたいですが、今の所ワタシ的にも、そういうふうにできてるんで…としか言えなさそうです。</description>
+    </item>
+    
     <item>
       <title>水曜日の話</title>
       <link>https://ebizoooo.github.io/ja/posts/2021/11/7th-post/</link>

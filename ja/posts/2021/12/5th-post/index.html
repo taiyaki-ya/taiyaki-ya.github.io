@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>全角半角の話</title>
+    <meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+
+<link rel="stylesheet" href="/css/bootstrap.min.css"/>
+<link rel="stylesheet" href="/css/layouts/main.css"/>
+<link rel="stylesheet" href="/css/navigators/navbar.css"/>
+<link rel="stylesheet" href="/css/plyr.css"/>
+<link rel="stylesheet" href="/css/flag-icon.min.css"/>
+
+
+<link href="https://fonts.googleapis.com/css2?family=Muli:wght@300;400;500;600" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" />
+
+
+
+
+<meta property="og:title" content="全角半角の話" />
+<meta property="og:description" content="パスワードの話です サポート業務中に一般ユーザーから電話で問い合わせがあったときの話です。
+経緯としては、新規のユーザーへ仮パスワードをこちらからふりだししていて、
+それで一旦サインインしてもらってから任意の本パスワードへ変更してもらうといった事をお願いしていました。（色々差っ引いてますが）
+実際の電話でのやり取りは以下の通りです。
+「仮パスワードの入力なんですが…」
+「はい、いかがされました？」
+「全角か半角かかいてないんです」
+「ああ勿論、半角です」
+「勿論なんですか？」
+…やってしまったなぁと、とても反省しました。
+このあと謝罪して、問い合わせの解決？はしたのですが、かなりの衝撃を受けました。
+（余談ですが本件の後、半角である旨を通知文等に添えるようになりました。）
+そういえばなぜ半角英数字（&#43;一部の記号）なのか、少し調べようとしてみたら既に2016年時点で調べておられる方がいらっしゃいました。
+なぜパスワードは半角英数字のみしか設定できないのか調べてみた。
+うまいこと説明できるようになりたいですが、今の所ワタシ的にも、そういうふうにできてるんで…としか言えなさそうです。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ebizoooo.github.io/ja/posts/2021/12/5th-post/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2021-12-05T12:53:19+09:00" />
+<meta property="article:modified_time" content="2021-12-05T12:53:19+09:00" />
+
+
+
+    
+    
+<meta name="description" content="全角半角の話" />
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/atom-one-dark.min.css"
+/>
+<link rel="stylesheet" href="/css/layouts/single.css"/>
+<link rel="stylesheet" href="/css/navigators/sidebar.css">
+
+<link rel="stylesheet" href="/css/style.css"/>
+
+
+
+    
+    
+  </head>
+
+  <body data-spy="scroll" data-target="#TableOfContents" data-offset="80">
+    <div class="container-fluid bg-dimmed wrapper">
+      
+      
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-xl top-navbar final-navbar shadow">
+  <div class="container">
+      <button class="navbar-toggler navbar-light" id="sidebar-toggler" type="button" onclick="toggleSidebar()">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="/ja">
+      EBIZO HOUSE</a>
+    <button class="navbar-toggler navbar-light" id="toc-toggler" type="button" onclick="toggleTOC()">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse lang-selector" id="top-nav-items">
+      <ul class="navbar-nav ml-auto">
+      
+      </ul>
+    </div>
+  </div>
+  
+  
+  
+</nav>
+
+
+
+      
+      
+  <section class="sidebar-section" id="sidebar-section">
+    <div class="sidebar-holder">
+      <div class="sidebar" id="sidebar">
+        <form class="mx-auto" method="get" action="/ja/search">
+          <input type="text" name="keyword" value="" placeholder="Search" data-search="" id="search-box" />
+        </form>
+        <div class="sidebar-tree">
+          <ul class="tree" id="tree">
+            <li id="list-heading"><a href="/ja/posts" data-filter="all">Posts</a></li>
+            <div class="subtree">
+                
+
+            </div>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+      
+      
+<section class="content-section" id="content-section">
+  <div class="content">
+    <div class="container p-0 read-area">
+      
+      <div class="hero-area col-sm-12" id="hero-area" style='background-image: url(https://ebizoooo.github.io/images/default-hero.jpg);'>
+      </div>
+
+      
+      <div class="page-content">
+        <div class="author-profile ml-auto align-self-lg-center">
+          <img class="rounded-circle" src='/images/author/ebizo_hu6e891917403f691f1f5691f16c1a5e7e_50251_120x120_fit_q75_box.jpg' alt="Author Image">
+          <h5 class="author-name">EBIZOOOO</h5>
+          <p>December 5, 2021</p>
+        </div>
+
+        <div class="title">
+          <h1>全角半角の話</h1>
+        </div>
+        
+        <div class="post-content" id="post-content">
+          <h1 id="パスワードの話です">パスワードの話です</h1>
+<p>サポート業務中に一般ユーザーから電話で問い合わせがあったときの話です。</p>
+<p>経緯としては、新規のユーザーへ仮パスワードをこちらからふりだししていて、<br>
+それで一旦サインインしてもらってから任意の本パスワードへ変更してもらうといった事をお願いしていました。（色々差っ引いてますが）</p>
+<p>実際の電話でのやり取りは以下の通りです。<br>
+「仮パスワードの入力なんですが…」<br>
+「はい、いかがされました？」<br>
+「全角か半角かかいてないんです」<br>
+「ああ勿論、半角です」<br>
+「勿論なんですか？」</p>
+<p>…やってしまったなぁと、とても反省しました。<br>
+このあと謝罪して、問い合わせの解決？はしたのですが、かなりの衝撃を受けました。<br>
+（余談ですが本件の後、半角である旨を通知文等に添えるようになりました。）</p>
+<p>そういえばなぜ半角英数字（+一部の記号）なのか、少し調べようとしてみたら既に2016年時点で調べておられる方がいらっしゃいました。<br>
+<a href="https://ariill-design.jp/new/archives/774">なぜパスワードは半角英数字のみしか設定できないのか調べてみた。</a></p>
+<p>うまいこと説明できるようになりたいですが、今の所ワタシ的にも、そういうふうにできてるんで…としか言えなさそうです。</p>
+
+        </div>
+
+        
+        <div class="row pl-3 pr-3">
+        
+        <div class="col-md-6 share-buttons">
+        
+          </div>
+
+        
+        
+        </div>
+
+
+
+      
+      <hr />
+        
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="row next-prev-navigator">
+  
+  
+</div>
+
+      <hr />
+
+      
+      
+      
+      
+
+      </div>
+    </div>
+  </div>
+  
+  <a id="scroll-to-top" class="btn"><i class="fas fa-chevron-circle-up"></i></a>
+  
+</section>
+
+
+      
+      
+  <section class="toc-section" id="toc-section">
+    
+    <div class="toc-holder">
+      <h5 class="text-center pl-3">Table of Contents</h5>
+      <hr>
+      <div class="toc">
+        <nav id="TableOfContents"></nav>
+      </div>
+    </div>
+    
+  </section>
+
+    </div>
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+  
+  
+
+  
+  
+
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+    
+  
+  
+
+  
+  
+  
+
+  <footer class="container-fluid text-center align-content-center footer pb-2">
+    <div class="container pt-5">
+      <div class="row text-left">
+        
+        <div class="col-md-4 col-sm-12">
+          <h5>Navigation</h5>
+          
+        </div>
+        
+        
+        <div class="col-md-4 col-sm-12">
+          <h5>Contact me:</h5>
+          <ul>
+            
+          </ul>
+        </div>
+        
+        
+        
+          
+          <div class="col-md-4 col-sm-12">
+            <p>Stay up to date with email notification</p>
+            
+              <form method='post' action='https://blogtrottr.com'>
+              <div class="form-group">
+              <input type='email' class="form-control" name='btr_email' placeholder="Enter email"/><br />
+              <input type='hidden' name='btr_url' value='https://ebizoooo.github.io/ja/index.xml' />
+              <input type='hidden' name='schedule_type' value='1' />
+              <small id="emailHelp" class="form-text text-muted">By entering your email address, you agree to receive the newsletter of this website.</small>
+              <button type="submit" class="btn btn-info"> Submit </button>
+              </form>
+            
+          </div>
+        
+      </div>
+    </div>
+    
+    
+    <hr />
+    <div class="container">
+      <div class="row text-left">
+        <div class="col-md-4">
+          <a id="theme" href="https://github.com/hossainemruz/toha" target="_blank" rel="noopener">
+            <img src="/images/theme-logo_hu8376fd15465fef26ffe66b6bcf0ca686_13669_32x0_resize_box_3.png" alt="Toha Theme Logo">
+            Toha
+          </a>
+        </div>
+        <div class="col-md-4 text-center">© 2021 Copyright.</div>
+        <div class="col-md-4 text-right">
+          <a id="hugo" href="https://gohugo.io/" target="_blank" rel="noopener">Powered by
+          <img
+            src="/images/hugo-logo.svg"
+            alt="Hugo Logo"
+            height="18"
+          />
+          </a>
+        </div>
+      </div>
+    </div>
+    
+  </footer>
+
+
+    <script type="text/javascript" src="/js/jquery-3.4.1.min.js"></script>
+<script type="text/javascript" src="/js/popper.min.js"></script>
+<script type="text/javascript" src="/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="/js/navbar.js"></script>
+<script type="text/javascript" src="/js/plyr.js"></script>
+<script type="text/javascript" src="/js/main.js"></script>
+
+
+    
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js"></script>
+<script src="/js/single.js"></script>
+<script>
+  hljs.initHighlightingOnLoad();
+</script>
+
+
+  </body>
+</html>
